@@ -1,0 +1,17 @@
+/* Login.css */
+.logo-container {
+    flex: 1;
+    height: 100%;
+}
+
+.logo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+}
+
+.login-form-container {
+    flex: 2;
+    max-width: 500px; /* Adjust size as needed */
+    margin: 0 auto;
+    padding-bottom: 10px;
+}

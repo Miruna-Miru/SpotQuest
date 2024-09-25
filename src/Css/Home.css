@@ -1,0 +1,106 @@
+.custom-navbar {
+  background-color: black;
+  height: 80px; /* Adjusted navbar height */
+  position: -webkit-sticky; /* Ensures sticky behavior in older browsers */
+  position: sticky; /* Makes the navbar sticky */
+  top: 0;
+  z-index: 1000; /* Ensures the navbar stays on top of other elements */
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+  margin: 0 20px; /* Added spacing between links */
+}
+
+.custom-navbar .nav-link:hover {
+  color: blue !important;
+  text-decoration: underline;
+}
+
+/* Footer styling */
+.custom-footer {
+  background-color: black;
+  padding: 1rem 0; /* Added padding to the footer */
+  position: relative; /* Ensures absolute positioning for icons */
+}
+
+.custom-footer h5 {
+  font-size: 1.5rem; /* Increased font size for "About Us" */
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.custom-footer h5:hover {
+  color: blue; /* Hover color similar to navbar */
+}
+
+.custom-footer a {
+  color: white;
+  text-decoration: none; /* Remove underline */
+}
+
+.custom-footer a:hover {
+  color: blue; /* Hover effect */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+.custom-footer .social-icons {
+  position: absolute;
+  bottom: 10px; /* Position icons at the bottom right */
+  right: 10px;
+}
+
+.custom-footer .social-icons img {
+  width: 30px; /* Adjust size of social media icons */
+  height: 30px;
+  margin-left: 10px; /* Space between icons */
+}
+
+/* Video container styling */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjusted height */
+}
+
+.video-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the area */
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.video-overlay h1 {
+  font-size: 3rem; /* Adjusted font size */
+  background-color: rgba(0, 0, 0, 0.5); /* Background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Centering cards in each row */
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Ensure all card images have the same dimensions */
+.card img {
+  width: 100%;
+  height: 200px; /* Ensured uniformity */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+/* Center align card content */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
